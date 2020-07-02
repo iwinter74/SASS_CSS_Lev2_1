@@ -1,0 +1,17 @@
+/* Error: Undefined variable.
+ *   ,
+ * 9 |     background-image: linear-gradient(45deg, $first-color $first-lg, $second-color $first-lg, $first-color $second-lg, $third-color $second-lg, $third-color $third-lg, $fourth-color $third-lg, $fourth-color $fourth-lg, $first-color $fourth-lg, $first-color $fifth-lg, $second-color $fifth-lg, $second-color $sixth-lg, $third-color $sixth-lg, $third-color $seventh-lg, $fourth-color $seventh-lg, $fourth-color $eighth-lg);
+ *   |                                              ^^^^^^^^^^^^
+ *   '
+ *   assets/scss/style.scss 9:46  root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a   \2577 \a 9 \2502      background-image: linear-gradient(45deg, $first-color $first-lg, $second-color $first-lg, $first-color $second-lg, $third-color $second-lg, $third-color $third-lg, $fourth-color $third-lg, $fourth-color $fourth-lg, $first-color $fourth-lg, $first-color $fifth-lg, $second-color $fifth-lg, $second-color $sixth-lg, $third-color $sixth-lg, $third-color $seventh-lg, $fourth-color $seventh-lg, $fourth-color $eighth-lg);\a   \2502                                               ^^^^^^^^^^^^\a   \2575 \a   assets/scss/style.scss 9:46  root stylesheet";
+}
