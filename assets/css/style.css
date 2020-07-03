@@ -1,17 +1,56 @@
-/* Error: Undefined variable.
- *   ,
- * 9 |     background-image: linear-gradient(45deg, $first-color $first-lg, $second-color $first-lg, $first-color $second-lg, $third-color $second-lg, $third-color $third-lg, $fourth-color $third-lg, $fourth-color $fourth-lg, $first-color $fourth-lg, $first-color $fifth-lg, $second-color $fifth-lg, $second-color $sixth-lg, $third-color $sixth-lg, $third-color $seventh-lg, $fourth-color $seventh-lg, $fourth-color $eighth-lg);
- *   |                                              ^^^^^^^^^^^^
- *   '
- *   assets/scss/style.scss 9:46  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a   \2577 \a 9 \2502      background-image: linear-gradient(45deg, $first-color $first-lg, $second-color $first-lg, $first-color $second-lg, $third-color $second-lg, $third-color $third-lg, $fourth-color $third-lg, $fourth-color $fourth-lg, $first-color $fourth-lg, $first-color $fifth-lg, $second-color $fifth-lg, $second-color $sixth-lg, $third-color $sixth-lg, $third-color $seventh-lg, $fourth-color $seventh-lg, $fourth-color $eighth-lg);\a   \2502                                               ^^^^^^^^^^^^\a   \2575 \a   assets/scss/style.scss 9:46  root stylesheet";
+* {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
+
+#home {
+  background-image: linear-gradient(45deg, #0ec8ed 12.5%, #f0ce0e 12.5%, #0ec8ed 25%, #eb8d12 25%, #eb8d12 37.5%, #bf1bb7 37.5%, #bf1bb7 50%, #0ec8ed 50%, #0ec8ed 62.5%, #f0ce0e 62.5%, #f0ce0e 75%, #eb8d12 75%, #eb8d12 87.5%, #bf1bb7 87.5%, #bf1bb7 100%);
+  background-size: 226.27px 226.27px;
+  height: 100vh;
+}
+#home h1, #home h2 {
+  text-align: center;
+  font-size: 10em;
+  color: white;
+}
+#home h2 {
+  font-size: 5em;
+}
+#home header {
+  color: black;
+  font-size: 2em;
+  padding: 1em 1em;
+}
+
+div {
+  background: #f0ce0e;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  color: white;
+  font-size: 5em;
+  text-align: center;
+  transform: translate(75vw, 7vh);
+}
+
+footer nav {
+  padding-top: 5em;
+  padding-right: 1em;
+}
+footer nav ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+footer nav ul li {
+  padding: 1em 0.5em;
+  list-style: none;
+}
+footer nav ul a {
+  text-decoration: none;
+  color: black;
+  font-size: 2em;
+}
+
+/*# sourceMappingURL=style.css.map */
